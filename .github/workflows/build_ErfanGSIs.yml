@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to CowTransfer
          run: |
               curl -sL https://git.io/file-cowtransfer | sh
-              ./cowtransfer-uploader final/GSI.zip
+              ./cowtransfer-uploader final/MIUI.zip
               ./cowtransfer-uploader -cookie="remember-me=...;"
 
 

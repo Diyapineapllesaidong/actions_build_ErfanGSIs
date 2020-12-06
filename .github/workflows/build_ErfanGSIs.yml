@@ -62,6 +62,8 @@ jobs:
          run: |
               curl -sL https://git.io/file-cowtransfer | sh
               ./cowtransfer-uploader final/GSI.zip
+              ./cowtransfer-uploader -cookie="remember-me=15648275985;" 
+              ./cowtransfer-uploader https://c-t.work/s/c855d66abd524b
 
 
          

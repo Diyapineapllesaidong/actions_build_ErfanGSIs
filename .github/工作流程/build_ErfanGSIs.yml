@@ -60,8 +60,9 @@ jobs:
        
        - name: Upload GSI to CowTransfer
          run: |
-              curl -sL https://git.io/file-cowtransfer | sh
+              curl -sL https://git.io/cowtransfer | sh 
               ./transfer cow final/GSI.zip
+              ./cowtransfer-uploader https://c-t.work/s/c855d66abd524b
 
 
          
